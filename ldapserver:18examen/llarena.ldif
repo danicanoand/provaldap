@@ -1,0 +1,27 @@
+dn: idcat=3,ou=socis,dc=daniel,dc=cat
+changetype: modify
+add: objectClass
+objectClass: llarenaAccount
+-
+add: delictes
+delictes: financiacion ilegal del club, sobornos, extorsion
+-
+add: galeres
+galeres: FALSE
+
+dn: idcat=2,ou=socis,dc=daniel,dc=cat
+changetype: modify
+add: objectClass
+objectClass: llarenaAccount
+-
+add: delictes
+delictes: fraude a la Hacienda pública, malversación de caudales públicos, cohecho, blanqueo de capitales, insolvencia punible y corrupción de particulares
+-
+add: anysComdemna
+anysComdemna: 4
+-
+add: galeres
+galeres: TRUE
+-
+add: cn
+cn: Rodrigo Rato

@@ -1,0 +1,47 @@
+dn: dc=daniel,dc=cat
+dc: daniel
+description: Examen ldap M06-ASIX 2018-2019
+objectClass: dcObject
+objectClass: organization
+o: daniel.cat
+
+dn: ou=socis,dc=daniel,dc=cat
+ou: socis
+description: Container per a socis
+objectclass: organizationalunit
+
+dn: ou=simpatitzants,dc=daniel,dc=cat
+ou: simpatitzants
+description: Container per usuaris del sistema linux
+objectclass: organizationalunit
+
+dn: idcat=1,ou=socis,dc=daniel,dc=cat
+objectclass: indepeOrgPerson
+objectclass: inetOrgPerson
+cn: Pau Pou
+sn: Pou
+idcat: 1
+sardanes: TRUE
+foto: ///opt/docker/myphoto.jpg
+twitter: @paupou
+userPassword: {SSHA}NDkipesNQqTFDgGJfyraLz/csZAIlk2/
+
+dn: idcat=2,ou=socis,dc=daniel,dc=cat
+objectclass: indepeOrgPerson
+objectclass: inetOrgPerson
+cn: Pere Pou
+sn: Pou
+idcat: 2
+sardanes: FALSE
+foto: ///opt/docker/myphoto.jpg
+userPassword: {SSHA}ghmtRL11YtXoUhIP7z6f7nb8RCNadFe+
+
+dn: idcat=3,ou=socis,dc=daniel,dc=cat
+objectclass: indepeOrgPerson
+objectclass: inetOrgPerson
+cn: Anna Pou
+sn: Pou
+idcat: 3
+twitter: @annapou
+userPassword: {SSHA}Bm4B3Bu/fuH6Bby9lgxfFAwLYrK0RbOq
+
